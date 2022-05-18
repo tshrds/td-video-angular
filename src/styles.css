@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.video {
+border: 5px solid #000000;
+text-align: center;
+display: flex;
+justify-content: center;
+}
