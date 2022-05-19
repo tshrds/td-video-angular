@@ -7,12 +7,12 @@ import { Component, ElementRef, ViewChild, Input } from '@angular/core';
 export class ScriptHackComponent {
 
     @Input()
-    src: string;
+    src!: string;
 
     @Input()
-    type: string;
+    type!: string;
 
-    @ViewChild('script') script: ElementRef;
+    @ViewChild('script') script!: ElementRef;
 
     convertToScript() {
         var element = this.script.nativeElement;
